@@ -48,3 +48,24 @@ output:
 1111
 11111
 
+int n=5,c=0,p=0;
+for(int i=1;i<n;i++) {
+	for(int j=i;j<n;j++) {
+		System.out.print(" ");
+		c++;
+	}
+	p=n-c;
+	for(int o=0;o<p;o++) {
+		System.out.print("*");
+	}for(int e=1;e<p;e++) {
+		System.out.print("*");
+	}
+	c=0;
+	System.out.println();
+}
+
+output:
+    *
+   ***
+  *****
+ *******
