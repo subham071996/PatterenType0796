@@ -12,7 +12,23 @@ for(int i=0;i<n;i++) {
 }
 
 output:
-    *
+   *
   **
  ***
 ****
+
+int n =5,c=1;
+for(int i=0;i<n;i++) {
+	for(int j=i;j<n;j++) {
+		System.out.print(c);
+		c++;
+	}
+	c=1;
+	System.out.println();
+}
+output: 
+12345
+1234
+123
+12
+1
