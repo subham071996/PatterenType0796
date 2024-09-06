@@ -95,3 +95,56 @@ output:
     ***
      *
 ======================================================================
+int n=5,c=1;
+for(int i=1;i<=n;i++) {
+	for(int j=1;j<=i;j++) {
+		if((i+j)%2==0) {
+			System.out.print("1");
+		}else {
+			System.out.print("0");
+		}
+	}
+	System.out.println();
+}
+output:
+1
+01
+101
+0101
+10101
+===================================================================
+int n=5,c=1;
+for(int i=1;i<=n;i++) {
+	for(int j=1;j<=i;j++) {
+		if(j%2!=0) {
+			System.out.print(c++);
+		}else {
+			System.out.print(c++);
+		}
+	}
+	System.out.println();
+}
+output:
+1
+23
+456
+78910
+1112131415
+==================================================================
+int n=5,c=70;
+String str ="ABCDEFGH";
+for(int i=65;i<=70;i++) {
+	for(int j=65;j<=c;j++) {
+		System.out.print((char)j);
+	}c--;
+	System.out.println();
+}
+output:
+ABCDEF
+ABCDE
+ABCD
+ABC
+AB
+A
+
+===================================================================
